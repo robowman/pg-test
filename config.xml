@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap		= "http://phonegap.com/ns/1.0"
-	id				= "com.phonegap.pg-test"
+	id				= "com.phonegap.northeaststate"
 	versionCode		= "1"
-	version 		= "1.0">
+	version 		= "2.2.0">
 
 	<name>Test</name>
 
 	<description>
-	Test
+		Test
 	</description>
 
-	<author href="http://www.russellbowman.com/">
+	<author href="http://www.northeaststate.edu/">
 		Russell Bowman
 	</author>
 
@@ -21,11 +21,10 @@
 		<gap:platform name="symbian.wrt" />
 		<gap:platform name="blackberry" project="widgets"/>
 	</gap:platforms>	
-	
-	
+
 	<preference name="orientation" value="default" />
-	<preference name="target-device" value="handset" />
-	
+	<preference name="target-device" value="universal" />
+
 	<feature name="http://plugins.phonegap.com/ChildBrowser/2.0.0" /> 
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
