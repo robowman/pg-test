@@ -5,10 +5,10 @@
 	versionCode		= "1"
 	version 		= "1.0">
 
-	<name>Child Browser</name>
+	<name>Test</name>
 
 	<description>
-		Child Browser Test
+	Test
 	</description>
 
 	<author href="http://www.russellbowman.com/">
