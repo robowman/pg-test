@@ -24,10 +24,13 @@
 
 	<preference name="orientation" value="default" />
 	<preference name="target-device" value="universal" />
-
-	<feature name="http://plugins.phonegap.com/ChildBrowser/2.0.0" /> 
-	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	
+	<gap:plugin name="BarcodeScanner" />
+	<gap:plugin name="ChildBrowser" />
+	<gap:plugin name="Analytics" />
 	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/notification"/>	
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 
 	<!-- sample preference specification -->
 	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
