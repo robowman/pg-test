@@ -84,8 +84,11 @@ window.plugins.barcodeScanner.scan( function(result) {
 	<div data-role="content">	
 		<ul data-role="listview">
 			<li><a href="#" onclick="">Scan</a></li>
-            <li><a href="#" onClick="window.plugins.childBrowser.showWebPage('http://www.espn.com', { showLocationBar: true });">ESPN</a></li>
-            <li><a href="#" onClick="window.plugins.childBrowser.showWebPage('http://www.nfl.com', { showLocationBar: false });">NFL</a></li>
+            <li><a href="#" onClick="checkConnection(); window.plugins.childBrowser.showWebPage('http://www.espn.com', { showLocationBar: true });">ESPN</a></li>
+            <li><a href="#" onClick="checkConnection(); window.plugins.childBrowser.showWebPage('http://www.nfl.com', { showLocationBar: false });">NFL</a></li>
+            <li><a href="#page2">Page Two</a></li>
+            <li><a href="#page3">Page Three</a></li>
+			<li><a href="#page4">Page Four</a></li>
 		</ul>		
 	</div>
 	<div data-role="footer">
